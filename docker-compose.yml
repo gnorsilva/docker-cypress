@@ -1,0 +1,5 @@
+version: '3'
+services:
+  cypress:
+    build: '.'
+    image: 'gnorsilva/cypress:latest'
